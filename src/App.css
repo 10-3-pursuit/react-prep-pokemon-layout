@@ -1,0 +1,77 @@
+body {
+  background: url('./assets/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rebeccapurple;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.aside {
+  background-color: yellow;
+  width: 100%;
+  text-align: center;
+  border-top: 50px solid yellow;
+  border-bottom: 292px solid yellow;
+}
+
+.aside h3 {
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.bulbasaur {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding-top: 70px;
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.main-div {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.grass {
+  color: white;
+  background-color: green;
+}
+
+.vine-whip {
+  color: green;
+  background-color: white;
+}
+
+li {
+  padding-bottom: 20px;
+  color: rebeccapurple;
+}
+
+h2 {
+  padding: 30px;
+}
